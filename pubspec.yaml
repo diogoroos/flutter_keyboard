@@ -3,6 +3,14 @@ description: A customizable numeric keypad like those found on P.O.S equipment (
 version: 2.0.0
 homepage: https://github.com/diogoroos/flutter_keyboard
 
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
 environment:
   sdk: '>=2.19.6 <4.0.0'
   flutter: ^3.12.0
