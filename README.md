@@ -1,4 +1,4 @@
-# fl_numeric_keyboard
+# flutter_keyboard
 
 [![pub package](https://img.shields.io/pub/v/fl_numeric_keyboard.svg?style=for-the-badge&color=blue)](https://pub.dartlang.org/packages/flutter_keyboard)
 
