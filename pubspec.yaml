@@ -1,5 +1,5 @@
 name: flutter_keyboard
-description: An improved clone of the numeric_keyboard package.
+description: A customizable numeric keypad like those found on P.O.S equipment (P.D.V in Brazil)
 version: 2.0.0
 homepage: https://github.com/diogoroos/flutter_keyboard
 
