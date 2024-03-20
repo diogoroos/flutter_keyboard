@@ -64,7 +64,16 @@ For a more detail example please take a look at the `example` folder.
 
 Flutter keyboard:
 
-<img src="https://raw.githubusercontent.com/huextrat/fl_numeric_keyboard/master/example/screenshot.png" width="400" height="790">
+<table>
+  <tr>
+    <td> <img src="https://github.com/diogoroos/flutter_keyboard/assets/78812662/6a94f092-b627-42c4-8613-9d0d2f7145d9"></td>
+    <td><img src="https://github.com/diogoroos/flutter_keyboard/assets/78812662/5796099e-3c51-41e7-9766-fd1b6bb6d0ca"></td>
+   </tr> 
+   <tr>
+      <td><img src="https://github.com/diogoroos/flutter_keyboard/assets/78812662/05a6162a-a763-4b0a-b068-a4125f6fe87a"></td>
+      <td><img src="https://github.com/diogoroos/flutter_keyboard/assets/78812662/2f1551ae-b175-4044-a81d-d5e60cbaf58e"></td>
+  </tr>
+</table>
 
 ## -
 
