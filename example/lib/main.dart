@@ -67,9 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 50,
               child: const Icon(Icons.backspace),
             ),
-            footerLeftAction: () {
-              print('left button clicked');
-            },
+            footerLeftAction: () {},
             footerLeftChild: Container(
               alignment: Alignment.center,
               width: 50,
