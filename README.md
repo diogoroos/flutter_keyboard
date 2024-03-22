@@ -1,6 +1,6 @@
 # flutter_keyboard
 
-[![pub package](https://img.shields.io/pub/v/fl_numeric_keyboard.svg?style=for-the-badge&color=blue)](https://pub.dartlang.org/packages/flutter_keyboard)
+[![pub package](https://img.shields.io/pub/v/flutter_keyboard.svg?style=for-the-badge&color=blue)](https://pub.dartlang.org/packages/flutter_keyboard)
 
 Easily display a numeric keypad like those found on P.O.S (P.D.V in Brazil) equipment. Works on Android, iOS, Web, Windows, Linux and Mac.<br/>
 Cloned and improved from the numeric_keyboard package.
