@@ -1,9 +1,10 @@
 library flutter_keyboard;
 
 /**
- * Autor: Diogo Roos de Melo
- * Data: 2024/03/20
+ * Author: Diogo Roos
+ * Date: 2024/03/20
  * https://github.com/diogoroos/flutter_keyboard
+ * 
  * 
  * Licensed under: Apache License 2.0. 
  * All licenses in this repository are copyrighted by their respective authors. 
@@ -106,32 +107,23 @@ class _FlutterKeyboardState extends State<FlutterKeyboard> {
       physics: const AlwaysScrollableScrollPhysics(),
       children: [
         ...createVerticalList(widget.characters),
-        Expanded(
-          flex: 1,
-          child: Row(
-            mainAxisAlignment: widget.mainAxisAlignment,
-            children: <Widget>[
-              Expanded(
-                flex: 1,
-                child: _buttonBottom(
-                  InkWell(
-                    onTap: widget.footerLeftAction,
-                    child: widget.footerLeftChild,
-                  ),
-                ),
+        Row(
+          mainAxisAlignment: widget.mainAxisAlignment,
+          children: <Widget>[
+            _buttonBottom(
+              InkWell(
+                onTap: widget.footerLeftAction,
+                child: widget.footerLeftChild ?? Container(),
               ),
-              Expanded(flex: 1, child: _calcButton(widget.footerMiddleCharacter)),
-              Expanded(
-                flex: 1,
-                child: _buttonBottom(
-                  InkWell(
-                    onTap: widget.footerRightAction,
-                    child: widget.footerRightChild,
-                  ),
-                ),
-              )
-            ],
-          ),
+            ),
+            _calcButton(widget.footerMiddleCharacter),
+            _buttonBottom(
+              InkWell(
+                onTap: widget.footerRightAction,
+                child: widget.footerRightChild ?? Container(),
+              ),
+            ),
+          ],
         ),
       ],
     );
@@ -186,11 +178,7 @@ class _FlutterKeyboardState extends State<FlutterKeyboard> {
         if (organizedItems[z] == "stepOver") {
           break;
         }
-        row.add(
-          widget.getAllSpace
-              ? Expanded(flex: 1, child: _calcButton(organizedItems[z]))
-              : _calcButton(organizedItems[z]),
-        );
+        row.add(_calcButton(organizedItems[z]));
       }
 
       allItems.add(Row(children: row));
